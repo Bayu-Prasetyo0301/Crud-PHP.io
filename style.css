@@ -1,0 +1,183 @@
+/* Membuat tampilan tabel menjadi lebih menarik */
+.table {
+    font-size: 14px;
+}
+
+.table th {
+    background-color: hsla(338, 100%, 50%, 0.824);
+    color: #0de6e9;
+}
+
+.table td {
+    background-color: #15cfc9;==
+}
+
+/* Mengubah warna latar belakang button tambah data */
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+/* Mengubah warna latar belakang button ubah dan hapus */
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+/* Mengubah ukuran modal */
+.modal-dialog {
+    max-width: 500px;
+}
+
+/* Mengubah warna judul modal */
+.modal-title {
+    color: #00ffd9;
+}
+
+/* Mengubah ukuran teks pada modal */
+.modal-body,
+.modal-footer {
+    font-size: 14px;
+}
+
+/* Mengubah warna latar belakang button pada modal */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #00ff66;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-close {
+    color: #007bff;
+}
+
+/* Menambahkan margin bawah pada tombol pada modal */
+.modal-footer button {
+    margin-bottom: 0;
+}
+.container {
+  margin-top: 20px;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.card-header {
+  font-weight: bold;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #218838;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #c82333;
+}
+
+.table {
+  font-size: 14px;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.modal-title {
+  font-weight: bold;
+}
+
+.modal-body {
+  font-size: 14px;
+}
+
+.modal-footer {
+  justify-content: space-between;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+.btn-close {
+  color: #000;
+  opacity: 0.5;
+}
+
+.btn-close:hover {
+  color: #000;
+  opacity: 0.8;
+}
+
+.marquee {
+  padding: 10px;
+  background-color: #198754;
+  color: #fff;
+}
+
+.table {
+    width: 100%;
+    text-align: center;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+}
+
+.table th {
+    font-weight: bold;
+}
+
+.marquee h2 {
+  margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+  .marquee {
+    overflow-x: scroll;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-body {
+    padding: 15px;
+  }
+
+  .form-label {
+    font-size: 14px;
+  }
+
+  .form-control {
+    font-size: 14px;
+  }
+}
+
